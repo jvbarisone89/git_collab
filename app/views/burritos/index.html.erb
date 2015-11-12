@@ -1,0 +1,9 @@
+<% @burritos.each do |burrito| %>
+
+    <div>
+        Name: <%= burrito.name %> <br>
+        Photo: <%=  image_tag burrito.img %> <br>
+        Rating: <%=  burrito.rating %>
+    </div>
+
+<% end %>
