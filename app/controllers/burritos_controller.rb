@@ -3,4 +3,7 @@ class BurritosController < ApplicationController
 		@burritos = Burrito.all  
 	end
 
+	def new 
+
+	end
 end
